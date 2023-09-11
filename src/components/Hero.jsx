@@ -33,7 +33,7 @@ const Hero = () => {
             </div>
             <div className={`${styles.flexCenter}  rounded-full`}
             >
-            <motion.h1 className='flex-1 font-poppins font-normal sm:text-[52px] text-[32px] text-gray-400 sm:leading-[80.8px] leadig-[75px]'
+            <motion.h1 className='flex-1 justify-center  font-poppins font-normal sm:text-[52px] text-[22px] text-gray-400 sm:leading-[80.8px] leadig-[75px]'
                 initial={{ x: '100vw' }}
                 animate={{ x: 0 }}
                 transition={{ delay: 1.5, duration: 1.5, type: 'spring', stiffness: 120 }}
@@ -81,8 +81,7 @@ const Hero = () => {
                     transition={{ delay: 1.5, duration: 0.5 }}
                     className={`${styles.paragraph} text-center font-poppins`}>
                     I'm currently a Full Stack Developer seeking many ways to improve my
-                     skills through problem-solving and creating various projects! Scroll 
-                     down to learn more about me.
+                     skills through problem-solving and creating various projects!
                     </motion.p>
                 </div>
                 
