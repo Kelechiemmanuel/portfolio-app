@@ -12,7 +12,7 @@ const Hero = () => {
     animate={{ opacity: 1 }}
     transition={{ delay: 1.5, duration: 1.5 }}
     >
-        <div className='bg-black bg-opacity-80 p-10'>
+        <div className='bg-black bg-opacity-80 p-20'>
         <div className={`flex-1 ${styles.flexCenter} flex-col xl:px-10 sm:px-16 px-6 p-20`}>
             <div className={`${styles.flexCenter} mt-20 flex-col px-5 w-[100%] h-[420px] mb-5 rounded-xl`}>
 
