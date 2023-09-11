@@ -53,7 +53,7 @@ const Navbar = () => {
 
           <ul className="list-none justify-end items-start py-8 flex-1 flex-col">
 
-            <img src={picture} alt="" className="h-[62px] w-[62px] rounded-full mb-6" />
+            <img src={picture} alt="" className="h-[62px] w-[62px] rounded-full mb-6 sm:ml-[-20px]" />
             <hr className="mb-6" />
 
           {navLinks.map((nav, index)=>(
