@@ -148,7 +148,7 @@ const Billings = () => {
 
     className='w-[100%] text-white'>
     <h1 className='text-white text-center text-[40px]'>Contact Info</h1>
-    <div className="bg-neutral-800 w-[100%] py-2 px-4 mt-2 mx-auto max-w-screen-md shadow-[0_3px_10px_rgb(0,0,0,0.4)]">
+    <div className="bg-neutral-800 w-[100%] py-2 px-4 mt-2 mx-auto max-w-screen-md rounded-xl shadow-[0_3px_10px_rgb(0,0,0,0.4)]">
       <div className='flex flex-col justify-between p-3'>
       <div className="pt-0 mb-5">
         <div className='flex flex-row items-center'>
