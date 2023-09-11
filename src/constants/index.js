@@ -1,0 +1,26 @@
+export const navLinks = [
+    {
+        id:"home",
+        title:"HOME",
+    },
+    {
+        id:"experience",
+        title:"EXPERIENCE",
+    },
+    {
+        id:"portfolio",
+        title:"PORTFOLIO",
+    },
+    {
+        id:"qualification",
+        title:"EDUCATION",
+    },
+    {
+        id:"about",
+        title:"ABOUT",
+    },
+    {
+        id:"contact",
+        title:"CONTACT",
+    },
+];
