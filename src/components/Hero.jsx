@@ -7,7 +7,7 @@ import { motion, useAnimation, useScroll } from 'framer-motion'
 
 const Hero = () => {
   return (
-    <motion.section id='home' className={`bg-cover flex lg:flex-row flex-col mt-20`} style={{ backgroundImage: `url(${backgroundimg})`}}
+    <motion.section id='home' className={`bg-cover flex lg:flex-row flex-col mt-[-10px]`} style={{ backgroundImage: `url(${backgroundimg})`}}
     initial={{ opacity: 0 }}
     animate={{ opacity: 1 }}
     transition={{ delay: 1.5, duration: 1.5 }}

@@ -9,13 +9,29 @@ const Navbar = () => {
     const [toggle, setToggle] = useState(false);
     const completion = usereadingprogress();
     console.log(completion)
+
+
+      const [isNavFixed, setNavFixed] = useState(false);
+
+  // Function to handle scrolling and determine whether to fix the navigation bar.
+  const handleScroll = () => {
+    if (window.scrollY > 100) {
+      setNavFixed(true);
+    } else {
+      setNavFixed(false);
+    }
+  };
+
+  // Add an event listener to the window to call handleScroll when the user scrolls.
+  window.addEventListener('scroll', handleScroll);
   return (
     <motion.div 
     animate={{ y: -10}}
     initial={{y: -250}}
     transition={{ delay: 0.5, type: 'spring', stiffness: 120 }}
-    className="bg-zinc-900 w-full flex p-6 justify-between items-center fixed left-0 navbar z-20"
+    className={`bg-neutral-800 w-full flex p-6 justify-between items-center navbar top-0 right-0 left-0 ${isNavFixed ? 'fixed' : ''} navbar z-10`}
     >
+      {/* <nav className={`navbar ${isNavFixed ? 'fixed' : ''}`}> */}
       <motion.div
         animate={{rotate: 0}}
         initial={{rotate: -150}}
@@ -73,6 +89,8 @@ const Navbar = () => {
         <span 
             style={{transform: `translateX(${completion - 100}%)`}}
             className='fixed bg-amber-400 h-1 w-full bottom-0'/>
+
+{/* </nav> */}
     </motion.div>
     
     

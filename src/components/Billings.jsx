@@ -3,7 +3,7 @@ import styles from '../style';
 import { icon1 } from '../assets';
 import emailjs from '@emailjs/browser';
 import { easeIn, motion, useAnimation, useInView  } from 'framer-motion';
-import { Locate, Mail, Phone } from 'lucide-react';
+import { Github, Locate, Mail, Phone } from 'lucide-react';
 
 const Billings = () => {
     const[status, setStatus] = useState('');
@@ -182,6 +182,16 @@ const Billings = () => {
             <h1 className=''>08122258423</h1>
             </h1><br />
         </div>
+
+        <div className='flex items-center justify-center'>
+                    <div>
+                        <button className='p-2 border-2 border-white'>
+                            <a href="">
+                                <Github />
+                            </a>
+                        </button>
+                    </div>
+                </div>
       </div>
       </div>
     </div>

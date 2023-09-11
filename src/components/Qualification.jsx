@@ -109,7 +109,7 @@ const Qualification = () => {
                
                 <div className='flex justify-center items-center'>
                 <button className='w-[150px] h-[45px] bg-amber-400 relative text-gray-800 hover:opacity-1 duration-500 hover:text-white rounded-full '>
-                  <a href="#contact" className=''>Contact Me</a>
+                  <a href="https://vercel.com/sweetxclusive215-gmailcom/" className=''>Me</a>
                  </button>
                 </div>
             </div>
@@ -144,7 +144,7 @@ const Qualification = () => {
                
                 <div className='flex justify-center items-center'>
                 <button className='w-[150px] h-[45px] bg-amber-400 relative text-gray-800 hover:opacity-1 duration-500 hover:text-white rounded-full '>
-                  <a href="#contact" className=''>Contact Me</a>
+                  <a href="https://www.linkedin.com/in/kelechi-joshua-886003291/" className=''>Contact Me</a>
                  </button>
                 </div>
             </div>

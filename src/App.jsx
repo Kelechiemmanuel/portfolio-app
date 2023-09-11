@@ -17,10 +17,10 @@ const App = () => {
   return (
    
     <div className='bg-neutral-800 w-full overflow-hidden'>
-      <div className={`${styles.paddingX} ${styles.flexCenter}`}>
-        <div className={`${styles.boxWidth}`}>
+      <div className={`bg-neutral-800 ${styles.flexCenter}`}>
+        {/* <div className={`${styles.boxWidth}`}> */}
           <Navbar />
-        </div>
+        {/* </div> */}
       </div>
 
       <div className={`${styles.flexStart}`}>
