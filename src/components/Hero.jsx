@@ -38,7 +38,7 @@ const Hero = () => {
                 animate={{ x: 0 }}
                 transition={{ delay: 1.5, duration: 1.5, type: 'spring', stiffness: 120 }}
             >
-                Hi There, I'm <span className='text-amber-400 sm:ml-20'> Kelechi</span>
+                Hi There, I'm <span className='text-amber-400'> Kelechi</span>
                 </motion.h1>
             </div>
         
