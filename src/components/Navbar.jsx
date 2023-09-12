@@ -69,7 +69,13 @@ const Navbar = () => {
 
           <ul className="list-none justify-end items-start py-8 flex-1 flex-col">
 
-            <img src={picture} alt="" className="h-[62px] w-[62px] rounded-full mb-6" />
+          <a href="#home">
+          <div className="p-1 border-2 border-amber-400 flex items-center justify-center rounded-full">
+            <div className="p-1 border-2 border-amber-400 flex items-center justify-center rounded-full">
+              <h1 className="font-poppins font-bold text-[18px] text-white">AKE</h1>
+            </div>
+          </div>
+          </a>
             <hr className="mb-6" />
 
           {navLinks.map((nav, index)=>(
