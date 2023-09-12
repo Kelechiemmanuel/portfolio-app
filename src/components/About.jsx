@@ -99,7 +99,7 @@ const About = () => {
             <div className='bg-purple-700 w-[100px] h-[5px] rounded-l-full'></div>
             </div>
           <p className={`${styles.paragraph} text-gray-300`}>
-          Since 2015 - I've spent my time seeking and learning new technologies and forms of digital expression. This has led to me working on some amazing world-class projects, worked at some amazing places, and worked with some great people.
+          I've spent my time seeking and learning new technologies and forms of digital expression. This has led to me working on some amazing world-class projects, worked at some amazing places, and worked with some great people.
           </p>
 
           <button onClick={onButtonClick} className=' mt-8 bg-amber-400 p-1 rounded-full px-8 text-gray-500'>

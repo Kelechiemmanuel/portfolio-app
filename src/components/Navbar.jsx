@@ -35,7 +35,7 @@ const Navbar = () => {
       <motion.div
         animate={{rotate: 0}}
         initial={{rotate: -150}}
-        transition={{duration: 1}}
+        transition={{duration: 1, delay: 3}}
         className="flex justify-center items-center"
       >
       {/* <img src={picture} alt="logo" className="h-[62px] w-[62px] rounded-full ml-10" /> */}
