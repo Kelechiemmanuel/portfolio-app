@@ -193,7 +193,7 @@ const Business = () => {
             </a>
         </div>
             <p className={`${styles.paragraph} text-gray-300`}>
-              I throw myself down among the tall grass by the stream as I lie close to the earth
+              {/* I throw myself down among the tall grass by the stream as I lie close to the earth */}
               St James barbershop website built using html and css and javascript languages
             </p>
 
