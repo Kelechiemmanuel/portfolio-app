@@ -59,8 +59,6 @@ const Hero = () => {
                     1000,
                     "A Back-End Developer",
                     1000,
-                    "A Full-Stack Developer",
-                    1000,
                     ]}
                     speed={50}
                     repeat={Infinity}

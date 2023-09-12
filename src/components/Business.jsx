@@ -74,7 +74,7 @@ const Business = () => {
             </a>
             </div>
             <p className={`${styles.paragraph} text-gray-300`}>
-              I throw myself down among the tall grass by the stream as I lie close to the earth
+             A very high responsive webtesting landing page using structuring (html) and styling (css) languages
             </p>
 
         </div>
@@ -97,7 +97,9 @@ const Business = () => {
             </a>
             </div>
             <p className={`${styles.paragraph} text-gray-300`}>
-              I throw myself down among the tall grass by the stream as I lie close to the earth
+                E-commerce website for mobile phone using html, css and javascript language and highly responsive.
+              {/* Team project of nasabits built using html and css with responsiveness and javascript.   */}
+              {/* I throw myself down among the tall grass by the stream as I lie close to the earth */}
             </p>
         
 
@@ -132,7 +134,8 @@ const Business = () => {
             </a>
         </div>
             <p className={`${styles.paragraph} text-gray-300`}>
-              I throw myself down among the tall grass by the stream as I lie close to the earth
+            Team project of nasabits built using html and css with responsiveness and javascript.  
+              {/* I throw myself down among the tall grass by the stream as I lie close to the earth */}
             </p>
 
         </div>
@@ -160,7 +163,8 @@ const Business = () => {
             </a>
         </div>
             <p className={`${styles.paragraph} text-gray-300`}>
-              I throw myself down among the tall grass by the stream as I lie close to the earth
+              {/* I throw myself down among the tall grass by the stream as I lie close to the earth */}
+              A dictionary app that uses an API for fetching data built using js and css
             </p>
         
 
@@ -190,6 +194,7 @@ const Business = () => {
         </div>
             <p className={`${styles.paragraph} text-gray-300`}>
               I throw myself down among the tall grass by the stream as I lie close to the earth
+              St James barbershop website built using html and css and javascript languages
             </p>
 
         </div>
