@@ -4,7 +4,7 @@ import styles from '../style'
 
 const Footer = () => {
   return (
-    <div className={`${styles.flexCenter} py-8`}>
+    <div className={`${styles.flexCenter} py-8 text-gray-400`}>
         <div className='flex'>
         <Copyright />
         <p className='ml-2'> Designed by Kelechi.</p>

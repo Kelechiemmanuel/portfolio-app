@@ -50,6 +50,7 @@ import portfolio5 from "./portfolio5.png";
 import portfolio6 from "./portfolio6.png";
 import react from "./react.png";
 import icon1 from "./icon1.png";
+import vercel2 from "./vercel2.png";
 import icon2 from "./icon2.png";
 import icon3 from "./icon3.png";
 import icon4 from "./icon4.png";
@@ -103,6 +104,7 @@ export {
   send,
   shield,
   star,
+  vercel2,
   menu,
   mobile1,
   mobile2,

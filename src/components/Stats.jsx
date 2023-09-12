@@ -93,7 +93,8 @@ const Stats = () => {
           
           <h1 className='mb-4 font-bold text-[25px] text-gray-300'>UI/UX Design</h1>
           <p className={`${styles.paragraph} text-gray-300`}>
-            I throw myself down among the tall grass by the stream as I lie close to the earth
+          Effective UI/UX design is crucial for enhancing user satisfaction, increasing engagement, 
+          and achieving the desired outcomes of a digital product.
           </p>
         </motion.div>
       
@@ -119,7 +120,8 @@ const Stats = () => {
           </div>
           <h1 className='mb-4 font-bold text-[25px] text-gray-300'>Product Design</h1>
           <p className={`${styles.paragraph} text-gray-300`}>
-            I throw myself down among the tall grass by the stream as I lie close to the earth
+          Product design is a collaborative process that involves designers, engineers, marketers, 
+          and other stakeholders working together to bring a product.
           </p>
         </div>
 
@@ -144,7 +146,8 @@ const Stats = () => {
         </div>
           <h1 className='mb-4 font-bold text-[25px] text-gray-300'>App Design</h1>
           <p className={`${styles.paragraph} text-gray-300`}>
-            I throw myself down among the tall grass by the stream as I lie close to the earth
+          App design refers to the process of creating the user interface (UI) and user experience (UX) for a mobile or web application. 
+          The design of an app plays a crucial role in its success,
           </p>
         </div>
     
@@ -183,7 +186,8 @@ const Stats = () => {
         </div>
           <h1 className='mb-4 font-bold text-[25px] text-gray-300'>Motion Graphics</h1>
           <p className={`${styles.paragraph} text-gray-300`}>
-            I throw myself down among the tall grass by the stream as I lie close to the earth
+          Motion graphics designers aim to engage viewers, convey information clearly, and leave a lasting impression.
+          Motion graphics designers aim to engage 
           </p>
         </div>
       
@@ -209,7 +213,9 @@ const Stats = () => {
         </div>
           <h1 className='mb-4 font-bold text-[25px] text-gray-300'>Responsive Design</h1>
           <p className={`${styles.paragraph} text-gray-300`}>
-            I throw myself down among the tall grass by the stream as I lie close to the earth
+            I
+Responsive design is an approach to web design and development that aims to make websites and web applications 
+adapt seamlessly to various screen sizes and devices.
           </p>
       </div>
  
@@ -235,7 +241,8 @@ const Stats = () => {
         </div>
           <h1 className='mb-4 font-bold text-[25px] text-gray-300'>Freelacer</h1>
           <p className={`${styles.paragraph} text-gray-300`}>
-            I throw myself down among the tall grass by the stream as I lie close to the earth
+          Freelancing offers flexibility, the ability to work on a variety of projects, and the opportunity to be your own boss.
+          Freelancers are self-employed individuals who offer their services to clients on a project-by-project basis
           </p>
       </div>
     </motion.div>

@@ -1,9 +1,9 @@
 import React, {useRef, useState, useEffect } from 'react'
 import styles from '../style';
-import { icon1 } from '../assets';
+import { icon1, vercel2 } from '../assets';
 import emailjs from '@emailjs/browser';
 import { easeIn, motion, useAnimation, useInView  } from 'framer-motion';
-import { Github, Locate, Mail, Phone } from 'lucide-react';
+import { Github, Linkedin, Locate, Mail, Phone } from 'lucide-react';
 
 const Billings = () => {
     const[status, setStatus] = useState('');
@@ -174,24 +174,33 @@ const Billings = () => {
       </div>
       <div className="pt-0 mb-3">
         <div className='flex flex-row items-center'>
-          <div className='bg-gray-900 border-2 border-gray-500 hover:grayscale-0 hover:border-amber-500  p-3 rounded-full grayscale'>
-            {/* <img src={icon1} alt="" className='w-[15px]' /> */}
-            <Locate />
-          </div>
             <h1 className='ml-3'>Visite my social profile and get connected
-            <h1 className=''>08122258423</h1>
             </h1><br />
         </div>
 
-        <div className='flex items-center justify-center'>
-                    <div>
-                        <button className='p-2 border-2 border-white'>
-                            <a href="">
-                                <Github />
-                            </a>
-                        </button>
-                    </div>
-                </div>
+        <div className={`flex items-start`}>
+            <div className='m-2'>
+                <button className='p-2 border-2 border-gray-500 rounded-full hover:border-amber-400'>
+                    <a href="https://github.com/Kelechiemmanuel/">
+                        <Github />
+                    </a>
+                </button>
+            </div>
+            <div className='m-2'>
+                <button className='p-2 border-2 border-gray-500 rounded-full hover:border-amber-400'>
+                    <a href="https://vercel.com/sweetxclusive215-gmailcom/">
+                        <img src={vercel2} alt="" className='w-[25px] h-[25px]'/>
+                    </a>
+                </button>
+            </div>
+            <div className='m-2'>
+                <button className='p-2 border-2 border-gray-500 rounded-full hover:border-amber-400'>
+                    <a href="https://www.linkedin.com/in/kelechi-joshua-886003291/">
+                        <Linkedin />
+                    </a>
+                </button>
+            </div>
+        </div>
       </div>
       </div>
     </div>

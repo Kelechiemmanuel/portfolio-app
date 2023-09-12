@@ -1,6 +1,6 @@
 import React,{ useState } from 'react'
 import styles from '../style'
-import { user, img2, washing, washing2, react, figma, node, profile, netlify2, backgroundimg } from '../assets'
+import { user, img2, washing, washing2, react, figma, node, profile, vercel2, netlify2, backgroundimg } from '../assets'
 import { ArrowBigDown, ArrowDown, ArrowDownNarrowWide, Code2, Facebook, File, Github, Linkedin, Locate, Mail, MapPin, Twitter, User, User2, Wheat, } from 'lucide-react'
 import { TypeAnimation } from 'react-type-animation'
 import { motion, useAnimation, useScroll } from 'framer-motion'
@@ -84,6 +84,30 @@ const Hero = () => {
                      skills through problem-solving and creating various projects!
                     </motion.p>
                 </div>
+
+                <div className={`flex items-start`}>
+            <div className='m-2'>
+                <button className='p-2 border-2 border-gray-500 rounded-full hover:border-amber-400'>
+                    <a href="https://github.com/Kelechiemmanuel/">
+                        <Github color="lightgray" />
+                    </a>
+                </button>
+            </div>
+            <div className='m-2'>
+                <button className='p-2 border-2 border-gray-500 rounded-full hover:border-amber-400'>
+                    <a href="https://vercel.com/sweetxclusive215-gmailcom/">
+                        <img src={vercel2} alt="" className='w-[25px] h-[25px]'/>
+                    </a>
+                </button>
+            </div>
+            <div className='m-2'>
+                <button className='p-2 border-2 border-gray-500 rounded-full hover:border-amber-400'>
+                    <a href="https://www.linkedin.com/in/kelechi-joshua-886003291/">
+                        <Linkedin color="lightgray" />
+                    </a>
+                </button>
+            </div>
+        </div>
                 
                 <motion.button id='education'
                 animate={{ y: 5}}

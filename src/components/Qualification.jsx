@@ -64,10 +64,10 @@ const Qualification = () => {
               <div className='flex items-center flex-wrap'>
                  <img src={school2} alt="" className='items-center rounded-xl object-cover w-[300px] ' />
                  <h1 className='lg:ml-5 ml-0 font-poppins sm:text-[35px] text-[25px] text-gray-300 sm:leading-[75.8px] leadig-[75px]'>
-                 BSc in Computer Science
+                 Certificate of complection.
                  <p className={`${styles.paragraph} text-gray-300`}>
-                <span className=' text-gray-300 font-poppins sm:text-[25px] text-[22px] sm:leading-[75.8px] leadig-[75px]'>SuperKing College</span> <br />
-                <span className=' text-gray-400'>Los Angeles, CA 90095, United States</span>
+                <span className=' text-gray-300 font-poppins sm:text-[25px] text-[22px] sm:leading-[75.8px] leadig-[75px]'>B2B Cyber Center</span> <br />
+                <span className=' text-gray-400'>Ebonyi state, Nigeria</span>
                </p>
                  </h1>
                
@@ -98,9 +98,9 @@ const Qualification = () => {
               <div className='flex items-center flex-wrap'>
                  <img src={school5} alt="" className='items-center rounded-xl object-cover w-[300px] ' />
                  <h1 className='lg:ml-5 ml-0 font-poppins sm:text-[35px] text-[25px] text-gray-300 sm:leading-[75.8px] leadig-[75px]'>
-                 Ekobits ICT Academy 
+                 Poise Nigeria
                  <p className={`${styles.paragraph} text-gray-300`}>
-                <span className=' text-gray-300 font-poppins sm:text-[25px] text-[22px] sm:leading-[75.8px] leadig-[75px]'>SuperKing College</span> <br />
+                <span className=' text-gray-300 font-poppins sm:text-[25px] text-[22px] sm:leading-[75.8px] leadig-[75px]'> Ekobits ICT Academy </span> <br />
                 <span className=' text-gray-400'>Lagos state, Nigeria</span>
                </p>
                  </h1>
@@ -109,7 +109,7 @@ const Qualification = () => {
                
                 <div className='flex justify-center items-center'>
                 <button className='w-[150px] h-[45px] bg-amber-400 relative text-gray-800 hover:opacity-1 duration-500 hover:text-white rounded-full '>
-                  <a href="https://vercel.com/sweetxclusive215-gmailcom/" className=''>Me</a>
+                  <a href="#contact" className=''>Contact Me</a>
                  </button>
                 </div>
             </div>
@@ -144,7 +144,7 @@ const Qualification = () => {
                
                 <div className='flex justify-center items-center'>
                 <button className='w-[150px] h-[45px] bg-amber-400 relative text-gray-800 hover:opacity-1 duration-500 hover:text-white rounded-full '>
-                  <a href="https://www.linkedin.com/in/kelechi-joshua-886003291/" className=''>Contact Me</a>
+                  <a href="#contact" className=''>Contact Me</a>
                  </button>
                 </div>
             </div>
