@@ -217,7 +217,8 @@ const Business = () => {
             </a>
         </div>
             <p className={`${styles.paragraph} text-gray-300`}>
-              I throw myself down among the tall grass by the stream as I lie close to the earth
+              {/* I throw myself down among the tall grass by the stream as I lie close to the earth */}
+              firebase authentication project for password validation user validation.
             </p>
         
 
